@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
-    <div className='h-screen overflow-hidden flex flex-col justify-center items-center gap-10'>
+    <div className='h-screen overflow-hidden flex flex-col justify-center gap-10 items-center'>
       <Outlet></Outlet>
     </div>
   )
